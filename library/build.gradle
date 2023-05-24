@@ -24,8 +24,8 @@ android {
         }
     }
     compileOptions {
-        targetCompatibility JavaVersion.VERSION_17
-        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_18
+        sourceCompatibility JavaVersion.VERSION_18
     }
     composeOptions {
         kotlinCompilerExtensionVersion = "1.4.6"
@@ -40,12 +40,6 @@ dependencies {
     /** HILT */
     implementation "com.google.dagger:hilt-android:$hiltVersion"
     kapt "com.google.dagger:hilt-android-compiler:$hiltVersion"
-
-    /** GOOGLE MAP */
-    implementation 'com.google.android.gms:play-services-maps:18.1.0'
-    implementation 'com.google.android.gms:play-services-location:21.0.1'
-
-
     /** compose */
     def composeBom = platform('androidx.compose:compose-bom:2023.04.01')
     implementation composeBom
