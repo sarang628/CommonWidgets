@@ -12,10 +12,26 @@ import androidx.compose.ui.unit.Dp
 
 @Composable
 fun RatingBar(rating: Float) {
+    var _rating = rating
+    if (_rating > 5) {
+        _rating = 5f
+    }
+
+
+
     Row {
-        for (f in 0..rating.toInt()) {
+        for (f in 1.._rating.toInt()) {
             Image(
                 painter = painterResource(id = R.drawable.selected_star),
+                contentDescription = "",
+                Modifier
+                    .size(Dp(15f))
+                    .padding(start = Dp(2f))
+            )
+        }
+        if (_rating - _rating.toInt() >= 0.5f) {
+            Image(
+                painter = painterResource(id = R.drawable.half_star),
                 contentDescription = "",
                 Modifier
                     .size(Dp(15f))
@@ -28,5 +44,5 @@ fun RatingBar(rating: Float) {
 @Preview
 @Composable
 fun PreviewRatingBar() {
-    RatingBar(rating = 3.5f)
+    RatingBar(rating = 2.5f)
 }
