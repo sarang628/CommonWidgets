@@ -1,0 +1,3 @@
+[submodule "app/src/main/java/com/example/commonwidgets/torangcomposepack"]
+	path = app/src/main/java/com/example/commonwidgets/torangcomposepack
+	url = https://github.com/sarang628/torangcomposepack.git
