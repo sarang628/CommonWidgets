@@ -8,7 +8,7 @@
             <InsightsFilterSettings>
               <option name="connection">
                 <ConnectionSetting>
-                  <option name="appId" value="com.bshop.bawi" />
+                  <option name="appId" value="com.sarang.torang" />
                 </ConnectionSetting>
               </option>
               <option name="failureTypes">
@@ -22,8 +22,6 @@
             </InsightsFilterSettings>
           </value>
         </entry>
-<<<<<<< HEAD
-=======
         <entry key="Firebase Crashlytics">
           <value>
             <InsightsFilterSettings>
@@ -41,7 +39,6 @@
             </InsightsFilterSettings>
           </value>
         </entry>
->>>>>>> origin/main
       </map>
     </option>
   </component>
