@@ -1,4 +1,4 @@
-package com.example.commonwidgets.ui.theme
+package com.sarang.commonwidgets.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

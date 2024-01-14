@@ -7,11 +7,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.commonwidgets'
+    namespace 'com.sarang.torang'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.example.commonwidgets"
+        applicationId "com.sarang.torang"
         minSdk 24
         targetSdk 33
         versionCode 1

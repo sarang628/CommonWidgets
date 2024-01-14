@@ -6,7 +6,7 @@ plugins {
 }
 
 android {
-    namespace 'com.sryang.torang.common_widget'
+    namespace 'com.sarang.torang'
     compileSdk 33
 
     defaultConfig {
